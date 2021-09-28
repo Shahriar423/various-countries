@@ -1,5 +1,7 @@
-.menu a{
-    text-decoration: none;
-    color: brown;
+.country{
+    background-color:lightslategray;
+    color: white;
     margin: 20px;
+    width: 70%;
+    margin-left: 16%;
 }
