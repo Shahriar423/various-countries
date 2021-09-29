@@ -1,7 +1,13 @@
 .country{
-    background-color:lightslategray;
+    background-color: lightslategrey;
     color: white;
     margin: 20px;
     width: 70%;
     margin-left: 16%;
+}
+h3{
+    color:sandybrown;
+}
+h4{
+    color: lemonchiffon;
 }

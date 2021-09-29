@@ -2,11 +2,14 @@ import React from 'react';
 import './Countries.css';
 
 const Country = (props) => {
+    const { name, flag, capital, topLevelDomain } = props.country;
     return (
         <div className="country">
-            <h1>{props.name}</h1>
-            <h3>Capital: {props.capital}</h3>
-            <h4>Country Domain: {props.topLevelDomain}</h4>
+            <h2>{name}</h2>
+            <img src={flag} alt="" />
+            <h3>Capital: {capital}</h3>
+            <h4>Country Domain: {topLevelDomain}</h4>
+
         </div>
     );
 };
